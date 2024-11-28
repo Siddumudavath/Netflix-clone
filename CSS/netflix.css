@@ -1,0 +1,498 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.one::before {
+    content: "";
+    background: url(../netflixback.png) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.one .two {
+    height: 100px;
+    display: flex;
+}
+
+.one .two .logo {
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.one .two .logo img {
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+.one .two .right {
+    display: flex;
+    height: 100px;
+    float: right;
+    position: absolute;
+    right: 50px;
+}
+
+.one .two .right .lang {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 10px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.one .two .right .lang option {
+    background-color: grey;
+}
+
+.one .two .right button {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px 17px;
+    background: #e50914;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.one .two .right button a {
+    text-decoration: none;
+    color: white;
+}
+
+.one .title {
+    padding: 70px 45px;
+}
+
+.one .title .content {
+    width: 950px;
+    margin: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.one .title .content h1 {
+    width: 650px;
+    margin: auto;
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 800;
+    margin-top: -50px;
+}
+
+.one .title .content h2 {
+    width: 650px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.one .title .content form h3 {
+    font-size: 16px;
+    margin: 18px;
+    text-align: center;
+    color: white;
+}
+
+.one .title .content form .email {
+    width: 1000px;
+    margin: auto;
+}
+
+.one .title .content form .email input {
+    height: 60px;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.one .title .content form .email button {
+    margin: auto;
+    height: 60px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.one .title .content form .email button:hover {
+    background-color: #f40612;
+}
+
+.one .title .content form .email button a {
+    text-decoration: none;
+    color: white;
+}
+
+.three {
+    height: 20vh;
+    width: 100%;
+    background-image: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.four {
+
+    width: 180%;
+    left: -40%;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100px;
+    top: 99%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    background-clip: padding-box;
+}
+
+.four::before {
+
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -0.25rem;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.four1 div img {
+    position: sticky;
+    margin-left: 0px;
+    margin-top: 30px;
+    /* margin-right: 60px; */
+    border-radius: 10px;
+
+}
+
+.four1 div img:hover {
+    background-color: black;
+    box-shadow: 0px 0px 40px gray ;
+    transform: translateY(20px);
+}
+.overlay{
+    width: 15px;
+    position: sticky;
+    font-size: 90px;
+    margin-top: -100px;
+    margin-left: -20px;
+    color: black;
+    text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+    font-weight: 700;
+}
+
+.four1 {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.Trending {
+    margin-left: 150px;
+}
+
+h2 {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.five {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -70px;
+    /* margin-right: 20px; */
+}
+
+.five div {
+    height: 40vh;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: -200px;
+    /* background: linear-gradient(to bottom right, rgb(61, 3, 82) 90%, rgb(109, 2, 2)); */
+    background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+
+   
+}
+
+.five1 h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.five p {
+    margin-left: 30px;
+}
+
+.five2 h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.five3 h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.five4 h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+ h3 {
+
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.siddu .sid form .email {
+    width: 1000px;
+    margin: auto;
+}
+
+.siddu .sid form .email input {
+    height: 60px;
+    width: 650px;
+    margin: auto;
+    padding: 20px;
+    font-size: 20px;
+    outline: none;
+    margin-left: 120px;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.siddu .sid form .email button {
+    margin: auto;
+    height: 60px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 7px 17px;
+    background: #e50914;
+    outline: none;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.siddu .sid form .email button:hover {
+    background-color: #f40612;
+}
+
+.siddu .sid form .email button a {
+    text-decoration: none;
+    color: white;
+}
+
+.bottom .para {
+   margin-left: 100px;
+   margin-top: 70px;
+   color: gray;
+}
+
+.bottom .para a {
+    color: gray;
+    text-align: center;
+}
+
+.bottom {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.bottom div a {
+    color: gray;
+    margin-right: 400px;
+
+}
+
+.bottom div {
+    margin-top: 150px;
+    margin-left: -200px;
+}
+
+.bottom .moon select {
+    margin-top: 200px;
+    margin-left: -1290px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+#net {
+    margin-left: -1290px;
+    line-height: 100px;
+    color: gray;
+}
+
+.accordion {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid rgb(53, 51, 51);
+}
+
+.accordion-header {
+    display: block;
+    padding: 25px 20px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s ease;
+    user-select: none;
+    margin-top: 30px;
+}
+
+.accordion-header:hover {
+    background-color: black;
+}
+
+.accordion-checkbox {
+    display: none;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: rgb(43, 42, 42);
+    transition: max-height 0.3s ease;
+    padding: 0 15px;
+}
+
+.accordion-content p {
+    padding: 15px 0;
+    margin: 0;
+}
+
+.accordion-checkbox:checked ~ .accordion-content {
+    max-height: 300px;
+}
+
+/* Individual styles for each FAQ section */
+.faq1 .accordion-header {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.faq2 .accordion-header {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.faq3 .accordion-header {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.faq4 .accordion-header {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.faq5 .accordion-header {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.faq6 .accordion-header {
+    margin-top: 10px;
+    height: 10vh;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: white;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 200px;
+}
+
